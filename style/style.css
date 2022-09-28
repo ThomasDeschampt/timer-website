@@ -82,6 +82,85 @@ footer{
     font-size: 1.5rem;
 }
 
+#choix select{
+    background-color: rgb(34, 37, 48);
+    color: aliceblue;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: solid 2px whitesmoke;
+    outline: none;
+    margin-top: 10px;
+}
+
+#choix input{
+    background-color: rgb(34, 37, 48);
+    color: aliceblue;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: solid 2px whitesmoke;
+    outline: none;
+    margin-top: 10px;
+}
+
+#choix input:hover{
+    border-bottom: solid 2px #4a4d59;
+}
+
+/* test */
+.stopwatch {
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 23px;
+    width: 100%;
+    padding-top: 25px;
+  }
+  
+  .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  
+    height: 270px;
+    width: 270px;
+  
+    border: 2px solid;
+    border-radius: 50%;
+  }
+  
+  .time {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 48px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+  
+    width: 187px;
+  }
+  
+  button {
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+  }
+  
+  #playButton {
+    display: block;
+  }
+  
+  #pauseButton {
+    display: none;
+  }
+
+
 /* https://codepen.io/bnsddk/pen/pojMGGN
 https://www.youtube.com/watch?v=mSfsGTIQlxg
 https://www.youtube.com/watch?v=E-w3REBL8Dc */

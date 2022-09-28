@@ -1,3 +1,87 @@
-html{
-    background-color: #1D1E21
+@font-face {
+    font-family: test1;
+    src: url("../static/font/grotesk/grotesk/Grotesk.otf") format("opentype");
 }
+
+@font-face {
+    font-family: test2;
+    src: url("../static/font/bizmeud/bizmeud/bizmeud.otf") format("opentype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+
+html{
+    background-color: rgb(34, 37, 48);
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-family: test1;
+    font-size: 6rem;
+}   
+
+#chrono_categ{
+    color: aliceblue;
+    font-family: test2;
+    font-size: 2rem;
+}
+
+#chrono_section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 98vw;
+}
+
+#chrono a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: test2;
+}
+
+#chrono{
+    text-align: center;
+    width: 30vw;
+    align-self: center;
+    border-radius: 10px;
+    border: solid 3px #4a4d59;
+    margin-bottom: 50px;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #4a4d59;
+    -webkit-transition: ease-out 0.6s;
+    -moz-transition: ease-out 0.6s;
+    transition: ease-out 0.6s;
+    padding: 0%;
+}
+  
+#chrono:hover {
+    box-shadow: inset 0 150px 0 0 #4a4d59;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    color: aliceblue;
+    font-family: test1;
+    margin-top: 75px;
+    border-top: solid 2px whitesmoke;
+    font-size: small;
+}
+
+#choix{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* https://codepen.io/bnsddk/pen/pojMGGN
+https://www.youtube.com/watch?v=mSfsGTIQlxg
+https://www.youtube.com/watch?v=E-w3REBL8Dc */
